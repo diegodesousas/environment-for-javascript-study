@@ -1,4 +1,4 @@
-# This project is a collection of shell scrpts to start javascript study in docker environment.
+# This project is a collection of shell scripts to start javascript study in docker environment.
 
 - To create a new React Application ./create_new_react_application app_name
 
