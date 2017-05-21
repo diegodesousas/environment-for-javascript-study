@@ -1,0 +1,13 @@
+version: '2'
+services:
+    javascript-study-env:
+        user: node
+        image: node:latest
+        environment:
+           NODE_ENV: development
+        ports:
+          - 3000:3000
+        volumes:
+          - .:/home/node
+        working_dir: /home/node
+        entrypoint: ./keep_online.sh                                                                                                
